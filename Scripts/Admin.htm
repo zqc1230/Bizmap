@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Styles/Admin.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="Scripts/right.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var js = "<script src=\"Scripts/Admin.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+        document.write(js);
+    </script>
+</head>
+<body style='-webkit-user-select: none;'>
+    <form id="form1" action="Admin.htm" method="get">
+    <!--<input type="submit" style="display: block; float: left; margin-top: -300px;" />-->
+    <div id="title">
+        Website Management System</div>
+    <div id="Login">
+        <!--<center></center>-->
+        <div id="a">
+            Account:
+            <input id="uid" type="text" onfocus="fap()" onblur="testAccount()" class="txt" title="Please input your email/bizID" /></div>
+        <div id="p">
+            Password:
+            <input id="pwd" type="text" onfocus="fap()" onblur="testPassword()" class="txt" title="Please input your Password" /></div>
+        <div id="l">
+            Login</div>
+    </div>
+    <div id="main">
+        <table>
+            <tr>
+                <td id="td1">
+                    <div id="navi">
+                    </div>
+                </td>
+                <td id="td1-2">
+                    <img id="o-c" src="handle_close.png" />
+                </td>
+                <td id="td2">
+                    <div id="pannel">
+                    </div>
+                    <div id="Msg">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div id="Topmsg">
+            <span id="who"></span><span id="time"></span>
+        </div>
+    </div>
+    <div id="right">
+    </div>
+    </form>
+</body>
+</html>

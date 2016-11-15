@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Umap</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="keywords" content="best mobile phone web apps,finding local business in GTA area, iphone 3GS/iphone 4/iphone 4S supported" />
+    <meta name="description" content="Finding local businesses in The Greater Toronto Area" />
+    <link rel="apple-touch-icon" href="/Images/bizmap.png" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" type="text/css"
+        href="Styles/CE3.css" />
+    <link type="text/css" rel="stylesheet" media='only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)'
+        href="Styles/CE4.css" />
+    <style type="text/css">
+        /*    <!-- --> */
+        #main, #menu, #tools, #cmm, #tool, #saved,#keywords,#clear,#tomap0,#specials_title,#Lunch_title,#featured_title,#closeimg,#cover,#_bizTime1        {
+            display: none;
+        }
+        body
+        {
+            margin: 0px;
+        }
+        #under
+        {
+            width: 100%;
+        }
+        #gpstips
+{
+background-color: Black;
+color: White;
+width: 100%;
+height: 70px;
+position: absolute;
+bottom: 30px;
+z-index: 1;
+text-align: center;
+padding-top: 10px;
+display: none;
+}#startPage0
+{
+    width: 39px !important;
+margin: -70px auto !important;
+    }
+#startPage1
+{float: left;
+    background: red !important;
+width: 39px !important;
+height: 39px !important;
+margin: 0px !important;
+}
+#startPage2
+{float: left;
+    background: #0000E1 !important;
+width: 22px !important;
+height: 22px !important;
+margin-top: -50px !important;
+margin-left: 16px !important;
+border: 5px solid black !important;
+border-bottom-width: 4px !important;
+}
+
+    </style>
+    <link id="css" rel="stylesheet" type="text/css" />
+    <link id="css1" rel="stylesheet" type="text/css" />
+<link id="cssStore" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery.min.js" type="text/javascript"></script>
+    <script src="Scripts/i.js" type="text/javascript"></script>
+    <!-- <script src="http://cubiq.org/dropbox/iscroll4/src/iscroll.js"></script>-->
+    <script type="text/javascript">
+        /*
+        debugger;
+        var verStr = navigator.appVersion;
+        if (verStr.indexOf('iPhone') == -1 && verStr.indexOf('Android') == -1) {
+        var thisurl = location.href;
+        if (thisurl.indexOf("www.bizmap.ca") != -1) {
+        window.location.href = "http://bizmap.ca/pc.htm";
+        }
+        var re1 = /,{2,}|\|{1,}|\;{1,}|￥{1,}|:{1,}|\<{1,}|\>{1,}|\/{1,}|\:/g;
+        urlinfo = thisurl.split('?')[1];
+        if (urlinfo) {
+        urlinfo = urlinfo.replace(re1, " ");
+        urlinfo = urlinfo.replace(/@/g, '');
+        urlinfo = urlinfo.replace('dic00', '');
+        urlinfo = urlinfo.replace('dic01', '');
+        urlinfo = urlinfo.replace('dic02', '');
+        urlinfo = urlinfo.replace('dic$', '');
+        urlinfo = urlinfo.replace("%20", " ");
+        window.location = "pc_share.htm?" + urlinfo;
+        }
+        else {
+        window.location = "pc.htm";
+        } 
+        }
+        */
+
+        /*    var thisurl = location.href;
+        if (thisurl.indexOf("www.bizmap.ca") != -1) {
+        window.location.href = "http://bizmap.ca";
+        }
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-1829103-4']);
+        _gaq.push(['_setDomainName', '.bizmap.ca']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();*/
+    </script>
+</head>
+<body>
+    <form id="form1" action="index.htm" method="get">
+    <input type="submit" id="submit" style="display: block; float: left; margin-top: -300px;" />
+    <!--2012.02.14 test-->
+    <!-- <div id="page">pingyi-->
+    <div id="page0">
+        <div id="main">
+            <table id="getInfo" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                    <td class="bar_table" colspan="5">
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td class="bar_menu" align="right">
+                                        <div id="buttonSearch">
+                                            <img src="images/icon_search.png" style="-webkit-box-reflect: below 0px -webkit-gradient(linear, 30% 20%,-10% 120%, from(transparent), to(white));
+                                                -webkit-box-reflect: below 0px -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(.5, transparent), to(white));"></div>
+                                    </td>
+                                    <td style="height: 20px;">
+                                        <div>
+                                            <div id="kw2">
+                                                <input size="30" id="keywords2" onfocus="watchinput()" onblur="stopwatchinput()"
+                                                    type="search">
+                                            </div>
+                                            <div style="position: relative;">
+                                                <div id="delbut" class="chacha">
+                                                    <span class="chahao">×</span></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td align="center" style="display: none; width: 56px;">
+                                        <div id="ToMap" onclick="click_map(1)">
+                                            <img src="images/icons/icon.PNG" />
+                                            <div id="tm">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="saved">
+            <div id="showsaved" onclick="dis(event); showsave();">
+                Saved</div>
+            <div id="showshared" onclick="dis(event); showshare();">
+                Shared</div>
+            <!--
+<div id="showaccount" onclick="dis(event); showaccount();">
+    Account</div>-->
+            <div id="showevents" onclick="dis(event); showevent();">
+                Events</div>
+            <div id="showdraw" onclick="dis(event); showdraw();">
+            </div>
+        </div>
+        <div id="account">
+        </div>
+        <div id="about">
+        </div>
+        <div id="Pri">
+        </div>
+        <div id="menu">
+            <div id="menu1">
+                <div id="menuLists">
+                </div>
+                <div style="float: left; text-align: right; margin-top: 5px; width: 100%; border-top: 1px solid #efefef">
+                    <span id="addGroup">
+                        <input class='inputBoxs' id='addMainInput' maxlength='22' placeholder='Add new group'
+                            onblur="inputtxt(1)" onfocus="inputtxt()" type='text' /><span class='addNewInputSpan'
+                                id="buttonAddE" onclick="addFlash(this.id);addDiv('addMainInput')"><img id="E" src='images/blue1.png' /></span></span>
+                    <span id="editDone" onclick='editList();'></span>
+                    <br />
+                    &nbsp;<div id="rl" onclick='resetList();'>
+                        Reset list</div>
+                    <span id="blank"></span>
+                </div>
+                <div id="cpright">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="page1">
+        <div id="bizOut">
+            <div id="bizIn">
+                <div id="map">
+                    <!--<div id="mapcor1">
+                    </div>
+                    <div id="mapcor2">
+                    </div>
+                    <div id="mapcor3">
+                    </div>
+                    <div id="mapcor4">
+                    </div>-->
+                    <div id="map_canvas">
+                    </div>
+                </div>
+                <div id="page3_details">
+                </div>
+            </div>
+            <div id="p3_ownernotes">
+            </div>
+        </div>
+        <!-- <div id="tools">
+        </div>
+        <table id="tool" cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="zoom2">
+                    <img src="images/zoomin.png" alt="zoomin" />
+                </td>
+                <td id="zoom4">
+                    <img src="images/zoomout.png" alt="zoomout" />
+                </td>
+                <td id="zoom8">
+                    <img src="images/GPS30.png" alt="centerGps" />
+                </td>
+                <td id="zoom12">
+                    <img src="images/home.png" alt="zoomin" />
+                </td>
+                <td id="zoom10" onclick="dis(event);zoom10();">
+                    <img src="images/cross3.PNG" alt="cross" />
+                </td>
+            </tr>
+        </table>-->
+        <div id="cross">
+        </div>
+        <div id="container">
+            <div id="listin">
+            </div>
+        </div>
+        <span id="inMapMsg"></span><span id="cmm">×</span>
+        <div id="rf">
+        </div>
+        <div id="cover">
+        </div>
+        <div id="bizName">
+        </div>
+    </div>
+    <div id="page2">
+        <div id="biztitle">
+        </div>
+        <div id="_bizMain0">
+            <div id="_bizMain">
+            </div>
+        </div>
+        <div id="_bizSave">
+        </div>
+    </div>
+    <script src="http://maps.google.com/maps/api/js?sensor=false&libraries=places" type="text/javascript"></script>
+ <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        //debugger;
+        google.load("search", "1");
+
+        /*    1122  */
+        if (location.href.indexOf("cty.ca") != -1) {
+            //window.location = "Striiter.htm";
+            $("#page0,#page1,#page2").html('');
+            var Striiter = '<div id="map"><div id="map_canvas"></div><div id="gpstips" style="display:none;">cty.ca needs your current loaction to show restaurants nearby. Your privacy is respected.</div></div><div id="searchButton" onclick="searchClick()"><img src="../Striiter/icon_search64.png"></div><input type="text" id="keywords" value="Restaurant" onfocus="isGetfocus=true" placeholder="Restaurant" /><div id="clear" onclick="isGetfocus=true;clearkey()"><img src="Striiter/icon_delete48.png" /></div><div id="container"><div id="listin"></div></div><div id="detail"><table id="basic"><tr><td id="tomap" onclick="tomap()"><div id="tomap0">map</div></td></tr><tr><td id="name"></td></tr><tr><td id="non-name"><table><tr><td rowspan="5" id="storeimg"></td><td id="phone"></td></tr><tr><td id="addr"></td></tr><tr><td id="biztime" onclick="bigtime()"></td></tr><tr><td id="url"></td></tr><tr><td id="menutip"></td></tr></table></td></tr></table><div id="specials"><div id="specials_title">Specials </div><div id="specials_list"></div></div><div id="Lunch"><div id="Lunch_title">Lunch Menu </div><div id="Lunch_list"></div></div><div id="featured"><div id="featured_title">Menu </div><div id="featured_list"><table><tr><td align="right" valign="top"><div id="listleft"></div></td><td id="tdblank"></td><td align="left" valign="top"><div id="listright"></div></td></tr></table></div></div></div><div id="bigPic" onclick="hidePic()"><div id="closeimg"><br>Close</div><img id="bigimg" /></div><div id="cover"><a>Loading ……</a></div><div id="coverbody" onclick="hidetime()"></div><div id="_bizTime0" onclick="hidetime()"><div id="_bizTime1"><font style="font-weight:bold;">Business Hours:</font><div id="time1"></div></div></div>';
+            //$("body").html('<iframe src="Striiter.htm"></iframe>');
+            $("#page0").html(Striiter);
+            var js1 = "<script src=\"Striiter/Striiter.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+            document.write(js1);
+            document.getElementById('css').href = 'Styles/newindex.css?ver=' + Math.random();
+            window.scrollTo(0, 0);
+            //$("body").html('<p id="underp">Under Construction!<br>CTY Restaurants Finder is coming soon!</p><img id="underimg" src="under.jpg">');
+        }
+        else {
+            document.getElementById('css').href = 'Styles/Main-minn.css?ver=' + Math.random();
+            var js = "<script src=\"Scripts/Main1-y.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+            document.write(js);
+            var js1 = "<script src=\"Scripts/Main2-yy1.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+            document.write(js1);
+
+            /*
+            var js = "<script src=\"Scripts/Main1-y.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+            document.write(js);
+            document.getElementById('css').href = 'main.css';
+            var js = "<script src=\"main.css\" type=\"text/javascript\"></" + "script>";
+            document.write(js);
+            */
+            //#region 禁止其他用户访问
+            if (google) {
+                var equi;
+                var verStr = navigator.appVersion;
+                if (verStr.indexOf('iPhone') != -1) {
+                    //查看版本号
+                    var ver = verStr.toLowerCase().split('applewebkit/')[1];
+                    ver = ver.split('.')[0];
+                    if (ver > 500) {
+                        document.getElementById('css').href = 'Styles/Main-minn.css?ver=' + Math.random();
+                        var js = "<script src=\"Scripts/Main1-y.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+                        document.write(js);
+                        var js1 = "<script src=\"Scripts/Main2-yy1.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+                        document.write(js1);
+                    }
+                    else {
+                        alert('Sorry, Your device does not support \r\n we just work for iphone 3GS, iphone 4, iphone 4S');
+                    }
+
+                    //#endregion
+                }
+                else if (verStr.indexOf('Android') != -1) {
+                    var js = "<script src=\"Scripts/Main1-and.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+                    document.write(js);
+                    var js2 = "<script src=\"Scripts/And.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+                    document.write(js2);
+                    document.getElementById('css').href = 'Styles/And.css?ver=' + Math.random();
+                }
+            }
+        }
+    </script>
+    <!-- </div>pingyi-->
+    <!--新增部分-->
+    <script type="text/javascript">
+        /* if (verStr.indexOf('iPhone') == -1 && verStr.indexOf('Android') == -1) {
+
+        var js = "<script src=\"Scripts/Main1-and.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+        document.write(js);
+        var js2 = "<script src=\"Scripts/And.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+        document.write(js2);
+        document.getElementById('css').href = 'Styles/And.css?ver=' + Math.random();
+        */
+        /*
+        alert(verStr.indexOf('iPhone') + "---" + verStr.indexOf('Android'));
+        var js2 = "<script src=\"Scripts/Pc.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+        document.write(js2);
+        document.getElementById('css').href = 'Styles/Pc.css?ver=' + Math.random();
+        }*/
+    </script>
+    </form>
+</body>
+</html>

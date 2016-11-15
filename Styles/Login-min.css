@@ -1,0 +1,490 @@
+﻿body
+{
+    width: 320px;
+    margin-left: 0;
+    margin-top: 0;
+    font-family: Verdana;
+    background-image: -moz-linear-gradient(center top ,#eff3f7,#d6dbde); /* #3F6F98, #004080, #004080, #3F6F98  background-color:#3f6f98;     background-image: -moz-linear-gradient(top, #788d9c,#004080,#002050,#002050);     background-image: -webkit-gradient(             linear, left top,              left bottom,              from (#788d9c),             color-stop(0.4, #004080),             color-stop(0.6, #002050),             to(#002050)              ); */
+    background: -webkit-gradient(linear, left top,right top, from(#eff3f7), to(#d6dbde)) /*background-image: -webkit-gradient(linear,left top,right top,from(#ffe9cb),color-stop(0.5,#ffe9cb),to(#e6d0b7)); -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFE9CB), color-stop(0.5, #FFE9CB), to(#E6D0B7));*/; /* background-image: -webkit-gradient(linear,left top,left bottom,from(#dedede),color-stop(0.5,#efefef),to(#dedede));     background-image: -moz-linear-gradient(left,#fafafa,#ddd);          background-image: -webkit-gradient(linear,left top,right top,from(#ffffc0),color-stop(0.5,#ffe),to(#ffc));     background-image: -moz-linear-gradient(left,#ffffc0,#ffe,#ffc);     background-image: -webkit-gradient(linear,left top,right top,from(#ffffc0),color-stop(0.5,#ffe),to(#ffc));     background-image: -moz-linear-gradient(left,#ffffc0,#ffe,#ffc);     background-image: -webkit-gradient(linear,left top,right top,from(#ffffc0),color-stop(0.5,#ffe),to(#ffc));     background-image: -moz-linear-gradient(left,#ffffc0,#ffe,#ffc); */
+}
+.table
+{
+    margin-left: 25px;
+}
+.h4
+{
+    vertical-align: bottom;
+    height: 40px;
+}
+#login
+{
+    display: none;
+    width: 295px;
+    height: 279px;
+    margin-top:-50px;
+}
+#form2
+{
+    margin-left: -17px;
+    margin-top: -10px;
+}
+#agree
+{
+    margin-top: 5px;
+}
+#reset
+{
+    height: 80px;
+}
+#main
+{
+    display: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 0;
+}
+a
+{
+    text-decoration: none;
+}
+#tourists
+{
+    float: right;
+    width: 100%;
+}
+#new
+{
+    display: block;
+}
+.dicmap
+{
+    font-family: Verdana;
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.bar_table
+{
+    text-align: center;
+    background: url(images/head_bg.png);
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: 320px;
+    border: 0;
+    z-index: 100;
+    height: 56px;
+    background-image: -moz-linear-gradient(top,#407099,#154060,#154060);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#407099),color-stop(0.5,#154060),to(#154060));
+}
+#ddlanswer
+{
+    background: rgba(0,118,160,.25);
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #999;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2) inset;
+}
+#ddlanswer:focus
+{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.tddiv
+{
+    margin-bottom: 5px;
+}
+.tdtxt
+{
+    margin-bottom: 20px;
+}
+.signuptxt
+{
+    background: none repeat scroll 0 0 transparent;
+    width: 80%;
+    height: 25px;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #999;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2) inset;
+}
+.LS
+{
+    color: darkblue;
+    font-weight: bold;
+    font-family: Verdana;
+}
+.txt1
+{
+    color: darkblue;
+    font-weight: bold;
+    font-family: Verdana;
+}
+.txt2
+{
+    color: Black;
+    margin-left: 5px;
+    font-size: large; /*margin-top: 10px;*/
+}
+.txt
+{
+    font-size: 17px;
+    background: none repeat scroll 0 0 transparent;
+    height: 20px;
+    margin: 3px;
+    padding: 3px;
+    width: 87%; /*95%;*/
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid grey; /* box-shadow: 1px 1px 2px rgba(0,0,0,0.2) inset;*/
+}
+.txt:focus
+{
+    /*  box-shadow: 0 0 5px rgba(0,0,0,0.5);*/
+}
+.right
+{
+    width: 115px;
+    height: 30px;
+    text-align: right;
+}
+.pc
+{
+    display: none;
+}
+.next
+{
+    cursor: pointer;
+    color: Blue;
+    text-align: center;
+    font-size: small;
+    border: 1px solid lightblue;
+    width: 80px;
+    display: -moz-groupbox;
+    background-color: White;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2) inset;
+}
+#lblMsg
+{
+    font-size: smaller;
+}
+#resetpwd
+{
+    display: none;
+}
+#byAq
+{
+    margin-top: 2px;
+    display: none;
+}
+#forgetpwd
+{
+    display: none;
+}
+.block
+{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 80%;
+}
+.divtextarea
+{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.textarea
+{
+    height: 25px;
+    width: 78%;
+    font-size: large;
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #999999;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+#byEmail
+{
+    text-align: right;
+}
+.button
+{
+    cursor: pointer;
+    width: 90px;
+    height: 33px !important;
+    font-size: 14px;
+    font-family: arial;
+    padding: 2px;
+    border: 0px solid lightblue;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-image: -moz-linear-gradient(center top , #AAA8A3, #727C85);
+}
+.border
+{
+    border: 1px solid lightblue;
+    background-color: White;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2) inset;
+}
+#lblSP
+{
+    cursor: pointer;
+}
+#bid
+{
+    float: right;
+    font-size: small;
+    color: Gray;
+}
+.signupLog
+{
+    cursor: pointer;
+    font-size: large;
+    height: 26px;
+    width: 95px;
+    background-image: -moz-linear-gradient(top,#aaa8a3,#727c85);
+    background: -webkit-gradient(linear, 54% 13%, 54% 67%, from(#aaa8a3), to(#727c85));
+}
+.Log
+{
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+    font-size: large;
+    height: 25px;
+    margin-left: -40px;
+    width: 95px;
+    border-radius: 7px 7px 7px 7px;
+    background-image: -moz-linear-gradient(top,#aaa8a3,#727c85);
+    background: -webkit-gradient(linear, 54% 1%, 52% 60%, from(#aaa8a3), to(#727c85));
+    padding-top: 4px;
+}
+.Log1
+{
+text-align: center;
+padding: 2px;
+cursor: pointer;
+font-size: large;
+height: 25px;
+margin-left: 23px;
+width: 95px;
+border-radius: 7px 7px 7px 7px;
+background-image: -moz-linear-gradient(top,#AAA8A3,#727C85);
+background: -webkit-gradient(linear, 54% 1%, 52% 60%, from(#AAA8A3), to(#727C85));
+padding-top: 4px;
+float: left;
+margin-top: 15px;
+}
+.Logretrieve
+{
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+    font-size: large;
+    height: 26px;
+    margin-left: -40px;
+    width: 95px;
+    background-image: -moz-linear-gradient(top,#aaa8a3,#727c85);
+    background: -webkit-gradient(linear, 54% 13%, 54% 67%, from(#aaa8a3), to(#727c85));
+}/*
+.cha
+{
+    -moz-transition: all 0.5s ease-in-out 0s; /*background: url("https://img.alipay.com/home/chacha.png") repeat scroll  -2px -2px #EFEFEF;/
+    background: #EFEFEF url('../images/cha1.png') repeat scroll 0px 0px;
+    border-radius: 8px 8px 8px 8px;
+    cursor: pointer;
+    height: 19px;
+    position: absolute;
+    text-indent: -9999px;
+    width: 19px;
+}*/
+.chasignup
+{
+    /**background: #EFEFEF url('../images/cha1.png') repeat scroll 0px 0px;**/
+    cursor: pointer;
+    height: 19px;
+    position: absolute;
+    margin-left: 15px;
+    width: 19px;
+    -webkit-transform: scale(1.754);
+}
+.chacha1
+{
+    float: right;
+    height: 20px;
+    margin-top: 37px;
+    padding: 15px;
+    width: 30px;
+}
+#profilesubmit
+{
+    margin-left: -10px;
+}
+#profile
+{
+    margin-top: -30px !important;
+}
+#profile td
+{
+    height: 40px;
+}
+#signup
+{
+    margin-top: -50px;
+    height: 289px;
+}
+#lblshowinfo
+{
+    margin-top: -10px;
+    float: left;
+    margin-left: 6px;
+    font-size: small;
+    color: Red;
+}
+#btnquestionsubmit
+{
+    margin-top: 15px;
+}
+#BizID
+{
+    color: Green;
+}
+#txtaraanswer
+{
+    width: 83%;
+}
+.divloginlogout
+{
+    float: left;
+    cursor: pointer;
+}
+.divlogin
+{
+    cursor: pointer;
+}
+.divsignupprofile
+{
+    margin-left: 29px;
+    float: right;
+    cursor: pointer;
+}
+.divsignup
+{
+    cursor: pointer;
+}
+.chahao
+{
+font-size: 24px;
+float: left;
+margin-left: 1px;
+margin-top: -6px;
+}
+.closesaved
+{
+    color: #F3F3F3;
+   float: right;
+margin: 35px 30px;
+}
+.closesaved1
+{
+    float: left;
+    margin: 35px 10px;
+}
+.cha
+{
+    color: #F3F3F3;
+   float: right;
+margin: -90px 10px;
+    }
+.cha1
+{
+    color: #F3F3F3;
+   float: left;
+margin: -90px 30px;
+    }
+.close
+{
+  /*  background-color: #AAA;
+    width: 22px;
+    height: 22px;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    font-size: 24px;
+    -webkit-transform: scale(1.4);
+    font-family: Verdana;
+    text-align: center;
+    color: white;
+    box-shadow: 4px 2px 5px grey;*/
+    background-color: #AAA;
+width: 22px;
+height: 22px;
+-moz-border-radius: 22px;
+-webkit-border-radius: 22px;
+font-size: 24px;
+-webkit-transform: scale(1.4);
+font-family: Verdana;
+text-align: center;
+color: white;
+box-shadow: 4px 2px 5px grey;
+    
+background: -webkit-gradient(linear, 52% 100%, 53% 0%, from(#6A0000), to(#E27C7B));
+-webkit-border-radius: 13px;
+
+-webkit-transform: scale(1.1);
+border: 2px solid;
+}
+#termsofuse .close
+{
+    margin-top:25px;
+    }
+#forgetpwdinfo
+{
+    float: left;
+    margin-left: -18px;
+    color: red;
+}
+#RetrievePassword
+{
+    color: darkBlue;
+    text-decoration: underline;
+}
+#logindiv
+{
+    margin-top: 15px;
+}
+#singupsuccess
+{
+    margin-top: -50px;
+}
+#retaccount
+{
+    margin-top: 5px;
+}
+#forgetpwdemail .closesaved
+{
+    margin: 2px 10px;
+}
+#changepassword
+{
+    margin-top: -50px;
+}
+#changepassword .closesaved
+{
+    margin-top: -27px;
+}
+#lblchangpwd, #retrieveshowinfo
+{
+    color: red;
+    margin-left: 6px;
+    font-size: 15px;
+}
+#retrieveshowinfo
+{
+    margin-left: -19px;
+}
+#InviteEmail
+{
+    width: 80% !important;
+   
+    }

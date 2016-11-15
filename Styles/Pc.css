@@ -1,0 +1,254 @@
+﻿html
+{
+    height: 788px;
+    overflow: hidden;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Verdana;
+    background-color: Gray;
+}
+#pannel0
+{
+    display: block !important;
+    background-color: silver;
+    height: 700px;
+    width: 900px;
+    margin: 0px auto;
+}
+#bgimg
+{
+    margin-left: -123px;
+}
+#titleInP
+{
+    position: relative;
+    top: -693px;
+    left: 250px;
+    width: 396px;
+    text-align: center;
+}
+#msgInP
+{
+    position: relative;
+    top: -680px;
+    left: 250px;
+    width: 405px;
+    height: 535px;
+    overflow: auto;
+}
+#mapInP
+{
+    width: 480px;
+    height: 383px;
+    background-color: red;
+    position: relative;
+    top: -688px;/*top: -1223px;*/
+    left: 207px;
+    display:none;
+}
+#stcs_result1
+{
+    font-size: 17px;
+}
+#listInP
+{
+    height: 160px;
+    display: block;
+    position: relative;
+    width: 460px;
+    font-size: 14px;
+    font-family: Arial;
+}
+#map_canvasInP
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid gray;
+    background-color: #efefef;
+    width: 100%;
+    height: 100%;
+}
+#containerInP
+{
+    display: none;
+    height: 171px;
+    margin-left: 479px;
+    margin-top: 289px;
+    padding: 10px;
+    width: 482px;
+    position: relative;
+   top: -976px;
+    left: -272px;
+}
+#list-mp
+{
+    float: left; /*   font-size: medium;     font-weight: bold;     margin-left: 10px;     margin-top: 10px;*/
+    font-size: 15px;
+    border: 0 none;
+    color: Black;
+    float: left;
+    height: 22px;
+    padding: 15px;
+    text-align: center;
+    width: 90px;
+    font-weight: bold;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 100px;
+}
+#list table
+{
+    height: 80px;
+}
+#list-top
+{
+    float: right;
+    font-size: medium;
+    font-weight: bold;
+    padding: 15px;
+    display: none;
+}
+#list-top a
+{
+    color: Gray;
+}
+#footInP
+{
+    width: 480px;
+    height: 37px;
+    position: relative;
+    top: -660px;
+    left: 207px;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    cursor:pointer;
+    padding-top: 10px;
+    text-align:center;
+    color: blue;
+font-weight: bold;
+}
+#footInP div
+{
+    float: left;
+    margin-left: 50px;
+    margin-top: 11px;
+    font-size: large;
+    font-weight: bold;
+}
+#footInP div:not(.grey)
+{
+    cursor:pointer;
+    }
+.td_cate
+{
+    width:20%;
+    height: 80px;
+}
+.td_categ
+{
+    padding-left: 5px;
+}
+.unit_name
+{
+    font-size: 16px;
+    padding: 7px;
+    padding-left: 0px;
+    color: black !important; /*font-weight: bold;*/
+    text-decoration: initial !important;
+}
+.bizListIcon
+{
+    background: url("../images/icon_L.png") no-repeat scroll 0 0 transparent;
+    display: table-cell;
+    font-family: Verdana;
+    font-size: 13px;
+    height: 20px;
+    padding-top: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 15px;
+}
+.grey
+{
+    color:Gray;
+    }
+
+strong
+{
+    font-size:18px;
+    }
+.unit_info
+{
+    font-size: 16px;
+margin-top: 5px;
+float: left;
+    }
+.unit_phone
+{
+    margin-top: 5px;
+float: left;
+    }
+
+
+
+
+
+/*
+#main
+{
+    left: 505px;
+    position: absolute;
+    text-align: center;
+    top: 34px;
+    width: 432px;
+}
+#menu
+{
+    left: 523px;
+    position: absolute;
+    top: 120px;
+    width: 392px;
+}
+#map
+{
+    width: 480px;
+    height: 382.5px;
+    position: fixed;
+    visibility: hidden;
+    z-index: 101;
+    top: 58px;
+    left: 480px;
+    background-image: -moz-linear-gradient(left,#ffffc0,#ffe,#ffc);
+    background-image: -webkit-gradient(linear,left top,right top,from(#ffffc0),color-stop(0.5,#ffe),to(#ffc));
+}
+#map_canvas
+{
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid gray;
+    background-color: #efefef;
+}
+#container
+{
+    background-color: red;
+    display: none;
+    height: 171px;
+    margin-left: 479px;
+    margin-top: -289px;
+    padding: 0;
+    position: absolute;
+    width: 482px;
+}
+*/

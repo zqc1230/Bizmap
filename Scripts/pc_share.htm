@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>bizmap</title>
+    <meta name="keywords" content="best mobile phone web apps,finding local business in GTA area, iphone 3GS/iphone 4/iphone 4S supported" />
+    <meta name="description" content="Finding local businesses in The Greater Toronto Area" />
+    <link rel="apple-touch-icon" href="/Images/bizmap.png" />
+    <link rel="shortcut icon" href="/Images/bizmap.png" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link id="css" rel="stylesheet" type="text/css" />
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+</head>
+<body>
+    <form id="form1" action="pc.htm" method="get">
+    <input type="submit" style="display: block; float: left; margin-top: -300px;" />
+<script src="http://maps.google.ca/maps/api/js?sensor=false" type="text/javascript"></script>
+    <div id="pannel0" style="display: none">
+        <img id="bgimg" width="1141px" height="730px" src="PcFile/bg.png"/>
+        <div id="titleInP">
+            About Bizmap.ca
+        </div>
+        <div id="msgInP">
+        </div>
+        <div id="mapInP">
+            <div id="map_canvasInP">
+            </div>
+        </div>
+        <div id="containerInP">
+            <div id="listInP">
+            </div>
+        </div>
+        <div id="footInP" onclick='window.location.href = "pc.htm"'>
+        bizmap.ca
+        </div>
+        <div id="pannel2">
+        </div>
+    </div>
+    <script type="text/javascript">
+        var js2 = "<script src=\"Scripts/Pc.js?ver=" + Math.random() + "\" type=\"text/javascript\"></" + "script>";
+        document.write(js2);
+        document.getElementById('css').href = 'Styles/Pc.css?ver=' + Math.random();
+    </script>
+    </form>
+</body>
+</html>
